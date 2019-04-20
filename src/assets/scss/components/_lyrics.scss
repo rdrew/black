@@ -1,0 +1,17 @@
+.lyrics-tabs {
+  a::before {
+    content:"> ";
+    color:$white;
+  }
+  a:hover::before {
+    color:$black;
+  }
+
+  .is-active {
+
+    a::before {
+      color:$black;
+    }
+  }
+  border:none;
+}

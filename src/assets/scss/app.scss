@@ -62,3 +62,11 @@
 // Motion UI
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+
+@import "components/footer";
+@import "components/topnav";
+@import "components/lp-info-block";
+@import "components/hero";
+@import "components/media";
+@import "components/lyrics";
