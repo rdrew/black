@@ -1,4 +1,5 @@
 .lyrics-tabs {
+  margin-top: $global-margin;
   a::before {
     content:"> ";
     color:$white;

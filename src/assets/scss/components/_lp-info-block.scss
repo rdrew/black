@@ -6,7 +6,11 @@
 .name {
 text-align: center;}
 .lp-info-block.grid-container {
+    margin-top: -25px;
+  @include breakpoint(medium){
+  
     margin-top: -49px;
+  } ;
 }
 .lp-text {
 
