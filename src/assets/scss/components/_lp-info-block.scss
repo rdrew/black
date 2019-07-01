@@ -16,10 +16,17 @@
 .lp-text {
   font-size: rem-calc(18);
   margin-top: $global-margin * 2;
+  @include breakpoint(small only) {
+    max-width: 80%;
+  }
 }
 .lp-info-block .grid-container {
   padding: 0px;
 }
 .section {
   margin-bottom: $global-margin * 4;
+}
+h2 {
+  border-bottom: 4px double #ccc;
+  margin-bottom: 2rem;
 }

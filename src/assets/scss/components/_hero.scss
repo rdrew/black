@@ -15,10 +15,14 @@ $hero-height: 50vh;
     margin-bottom: $global-margin;
     color: $white;
     //text-shadow: 1px 1px 2px $black;
-    font-family:$fell !important;
+    font-family: $fell !important;
+    @include breakpoint(small only) {
+      max-width: 80%;
+      display:block;
+      margin:0 auto !important;
+    }
   }
 }
 .logo {
   width: 300px;
 }
-
